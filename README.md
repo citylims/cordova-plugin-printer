@@ -29,13 +29,9 @@ AirPrint printers are available for these devices when using the latest version 
  - iPhone (3GS or later)
  - iPod touch (3rd generation or later)
 
-<img src="http://static1.businessinsider.com/image/4cf67b8149e2aeb00b020000/only-12-printers-work-with-apples-airprint-heres-the-list.jpg" />
-
 ### Android Printing Framework
 Printing in __Android 4.4__ and later is provided by the Printing framework. By default, most Android devices have print service plugins installed to enable printing using the Google Cloud Print and Google Drive services. Print service plugins from other printer manufactures are available through the App Store though the Google Cloud Print service plugin can also be used to print from an Android device to just about any printer type and model.<br>
 In addition to supporting physical printers, it is also possible to save printed output to your Google Drive account or locally as a PDF file on the Android device.
-
-<img src="http://androidtopnews.com/wp-content/uploads/2013/10/46888__android-4.4-kitkat-official-4.jpg" />
 
 ### Supported Printers
 Printing is supported on AirPrint- and Google Cloud Print-enabled printers or from Android devices to compatible network printers over Wi-Fi. The following pages contain more information:
