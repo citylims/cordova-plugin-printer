@@ -55,6 +55,12 @@ See [Drawing and Printing Guide for iOS][ios_guide] for detailed informations an
 ## Installation
 The plugin can either be installed from git repository, from local file system through the [Command-line Interface][CLI]. Or cloud based through [PhoneGap Build][PGB].
 
+### NPM
+Now available on [npm][npmLink].
+```bash
+npm install de.appplant.cordova.plugin.printer
+```
+
 ### Local development environment
 From master:
 ```bash
@@ -70,6 +76,15 @@ or to use the last stable version:
 ```bash
 # ~~ stable version ~~
 cordova plugin add de.appplant.cordova.plugin.printer
+```
+
+### Meteor Build
+```javascript
+//package.js
+Cordova.depends({
+  'de.appplant.cordova.plugin.printer': '0.7.2'// Meteor 1.3
+  //'de.appplant.cordova.plugin.printer': '0.7.1-dev'// Meteor 1.2
+});
 ```
 
 ### PhoneGap Build
@@ -91,6 +106,11 @@ cordova plugin rm de.appplant.cordova.plugin.printer
 
 
 ## ChangeLog
+###Version 0.7.2 (01.06.2016)
+- [enhancement:] Cordova 6.0.0 / iOS9 support.
+- [enhancement:] Publish on NPM.
+- [bugfix:] iOS device detection.
+
 #### Version 0.7.1 (23.04.2015)
 - [bugfix:] `isAvailable` does not block the main thread anymore.
 - [bugfix:] iPad+iOS8 incompatibility (Thanks to __zmagyar__)
@@ -278,6 +298,7 @@ This software is released under the [Apache 2.0 License][apache2_license].
 
 © 2013-2014 appPlant UG, Inc. All rights reserved
 
+Maintained by Citylims
 
 [cordova]: https://cordova.apache.org
 [GCP]: http://www.google.com/cloudprint/learn/index.html
@@ -297,3 +318,4 @@ This software is released under the [Apache 2.0 License][apache2_license].
 [apache2_license]: http://opensource.org/licenses/Apache-2.0
 [katzer]: katzer@appplant.de
 [appplant]: www.appplant.de
+[npmLink]: https://www.npmjs.com/package/de.appplant.cordova.plugin.printer
